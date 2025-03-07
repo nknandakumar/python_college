@@ -24,10 +24,7 @@ def negativeOrPositive():
             print('Number is Zero')
         else:
             print('Negative Numbers')
-        choice  = input("I U Want to Continoue, type 1 or exit press 0 =  ")
-        print(bool(choice))
-        if choice == '0':
-                break
+
         
 def oddOrEven():    
     num = int(input("Enter the Numebr = "))
